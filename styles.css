@@ -6,7 +6,11 @@
     font-family: Roboto, 'sans-serif';
 }
 
-nav{
+body {
+    background-color: #EBEBEB;
+}
+
+nav {
     height: 100px;
     display: -webkit-flex;
     display: flex;
@@ -16,7 +20,13 @@ nav{
     position: relative;
 }
 
-.nav-logo{
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-logo {
     background-image: url(https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.22.5/mercadolibre/logo__large_plus.png);
     height: 34px;
     width: 134px;
@@ -27,42 +37,47 @@ nav{
 }
 
 
-.posición-logo{
+.posición-logo {
     margin-left: 166px;
     margin-top: 11px;
 }
 
-.font-style{
+.font-style {
     font-family: Roboto, sans-serif;
     font-size: 13px;
     color: #000;
 }
-.dropdown-font-style{
+
+.dropdown-font-style {
     font-family: Roboto, sans-serif;
     width: 63px;
     font-size: 13px;
     color: #333333;
 }
-.icon::after{
+
+.icon::after {
     content: url("data:image/svg+xml,%3Csvg width='9' height='10' viewBox='0 0 9 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='path-1-inside-1_1_16' fill='white'%3E%3Cpath d='M4.54688 0.757355L8.78952 5L4.54688 9.24265L0.304229 5L4.54688 0.757355Z'/%3E%3C/mask%3E%3Cpath d='M4.54688 9.24265L3.48621 10.3033L4.54688 11.364L5.60754 10.3033L4.54688 9.24265ZM7.72886 3.93934L3.48621 8.18199L5.60754 10.3033L9.85018 6.06066L7.72886 3.93934ZM5.60754 8.18199L1.36489 3.93934L-0.756431 6.06066L3.48621 10.3033L5.60754 8.18199Z' fill='black' fill-opacity='0.3' mask='url(%23path-1-inside-1_1_16)'/%3E%3C/svg%3E");
     margin-left: 5px;
 }
 
 
-.domicilio{
+.domicilio {
     margin-left: 187px;
     margin-top: 24px;
     margin-bottom: 11.5px;
     width: 119.65px;
     height: 20px;
+    gap: 45.35px;
 }
-.categorias{
+
+.categorias {
     margin-left: 16.76px;
     margin-top: 21px;
     margin-bottom: 10.5px;
     width: 78.55px;
     height: 22px;
 }
+
 .nav-offer-offer {
     margin-left: 16.76px;
     margin-top: 22px;
@@ -70,6 +85,7 @@ nav{
     width: 45.39px;
     height: 20px;
 }
+
 .img1-general-styles {
     width: 1512px;
     height: 340px;
@@ -78,22 +94,34 @@ nav{
     margin-right: 0px;
     margin-top: 0px;
 }
+
 .img1-container-styles {
-    position:absolute;
+    position: absolute;
     width: 60px;
     height: 6px;
     margin-top: 318px;
     margin-left: 726px;
 }
-.button-img1-style {
+
+.posicion-img {
+    width: 1512px;
+    height: 340px;
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.buttons {
     width: 6px;
     height: 6px;
     margin-left: 2px;
     border-radius: 3px;
-    margin-top:0px;
-    background: rgba(0,0,0,0.25);
+    margin-top: 0px;
+    background: rgba(0, 0, 0, 0.25);
     box-shadow: inset 0px 0px 0px 1px #ffffff;
 }
+
 .nav-crear {
     margin-left: 170.27px;
     margin-top: 22px;
@@ -101,6 +129,7 @@ nav{
     width: 253.25px;
     height: 20px;
 }
+
 .nav-ayuda {
     margin-left: 17.8px;
     margin-top: 22px;
@@ -108,6 +137,7 @@ nav{
     width: 77.95px;
     height: 20px;
 }
+
 .nav-venta {
     margin-left: 17.8px;
     margin-top: 22px;
@@ -115,6 +145,7 @@ nav{
     width: 44.73px;
     height: 20px;
 }
+
 .nav-moda {
     margin-left: 23.64px;
     margin-top: 22px;
@@ -122,6 +153,7 @@ nav{
     width: 34.97px;
     height: 20px;
 }
+
 .nav-supermercado {
     margin-left: 17.8px;
     margin-top: 21px;
@@ -129,13 +161,15 @@ nav{
     width: 85px;
     height: 22px;
 }
-.nav-historial{
+
+.nav-historial {
     margin-left: 17.8px;
     margin-top: 22px;
     margin-bottom: 11.5px;
     width: 50.26px;
     height: 20px;
 }
+
 .nav-ofertas {
     margin-left: 16.76px;
     margin-top: 22px;
@@ -143,7 +177,8 @@ nav{
     width: 45.39px;
     height: 20px;
 }
-.tamano{
+
+.tamano {
     position: relative;
     font-size: 15px;
     margin: 0;
@@ -153,17 +188,114 @@ nav{
     width: 100%;
     padding: 10px 60px 10px 15px;
     border-style: solid;
-    border-color: rgba(0,0,0,0);
+    border-color: rgba(0, 0, 0, 0);
     font-family: Roboto, sans-serif;
 }
 
-.tamano-style{
+.tamano-style {
     margin-left: 67px;
     margin-top: 8px;
     width: 598px;
 }
-.items{
+
+.card {
+    width: 1184px;
+    height: 90px;
+    margin-top: 380px;
+    margin-left: 164px;
+    border-radius: 4px;
+    background-color: white;
     display: flex;
 }
 
+.oval {
+    Width: 47px;
+    Height: 47px;
+    margin-top: 20.5px;
+    margin-Left: 20.5px;
+    margin-bottom: 22.5px;
+}
+.transfer{
+    Width: 48px;
+    Height: 48px;
+    margin-top: 20.5px;
+    margin-Left: 115.66px;
+    margin-bottom: 22.5px;
+}
 
+.payment{
+    Width: 48px;
+    Height: 48px;
+    margin-top: 20.5px;
+    margin-Left: 16.66px;
+    margin-bottom: 22.5px;
+}
+
+.view-more{
+    Width: 48px;
+    Height: 48px;
+    margin-top: 20.5px;
+    margin-Left: 116.66px;
+    margin-bottom: 22.5px;
+}
+.rectangle-path {
+    Width: 24px;
+    Height: 16px;
+    margin-top: 36px;
+    margin-Left: 32px;
+}
+
+.card-text{
+    Width: 124px;
+    Height: 20px;
+    margin-top: 24px;
+    margin-left: 16px;
+   }
+   .card-text-transfer{
+    Width: 237px;
+    Height: 20px;
+    margin-top: 24px;
+    margin-left: 16px;
+   }
+   .card-text-payment{
+    Width: 127px;
+    Height: 20px;
+    margin-top: 24px;
+    margin-left: 16px;
+   }
+
+   .card-text-view{
+    Width: 160px;
+    Height: 20px;
+    margin-top: 24px;
+    margin-left: 16px;
+   }
+.card-text-blue{
+    Width: 125px;
+    Height: 20px;
+    margin-top: 3px;
+    margin-left: 16px;
+}
+.font-card {    
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19.92px;
+    color:#000;
+}
+.font-card-blue{    
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.23px;
+    color:#3483FA;
+}
+.div-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    display: flex;
+    gap: 17.8px;
+}
