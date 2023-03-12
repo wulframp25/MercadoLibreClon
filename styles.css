@@ -10,6 +10,12 @@ body {
     background-color: #EBEBEB;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
     height: 100px;
     display: -webkit-flex;
@@ -20,11 +26,6 @@ nav {
     position: relative;
 }
 
-main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
 .nav-logo {
     background-image: url(https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.22.5/mercadolibre/logo__large_plus.png);
@@ -101,6 +102,7 @@ main {
     height: 6px;
     margin-top: 318px;
     margin-left: 726px;
+    display: flex;
 }
 
 .posicion-img {
@@ -208,6 +210,19 @@ main {
     display: flex;
 }
 
+.card-degrade {
+    width: 1180px;
+    height: 87px;
+    margin-top: 57px;
+    margin-left: 166px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
 .oval {
     Width: 47px;
     Height: 47px;
@@ -215,7 +230,8 @@ main {
     margin-Left: 20.5px;
     margin-bottom: 22.5px;
 }
-.transfer{
+
+.transfer {
     Width: 48px;
     Height: 48px;
     margin-top: 20.5px;
@@ -223,7 +239,7 @@ main {
     margin-bottom: 22.5px;
 }
 
-.payment{
+.payment {
     Width: 48px;
     Height: 48px;
     margin-top: 20.5px;
@@ -231,13 +247,14 @@ main {
     margin-bottom: 22.5px;
 }
 
-.view-more{
+.view-more {
     Width: 48px;
     Height: 48px;
     margin-top: 20.5px;
     margin-Left: 116.66px;
     margin-bottom: 22.5px;
 }
+
 .rectangle-path {
     Width: 24px;
     Height: 16px;
@@ -245,54 +262,424 @@ main {
     margin-Left: 32px;
 }
 
-.card-text{
+.card-text {
     Width: 124px;
     Height: 20px;
     margin-top: 24px;
     margin-left: 16px;
-   }
-   .card-text-transfer{
+}
+
+.card-text-transfer {
     Width: 237px;
     Height: 20px;
     margin-top: 24px;
     margin-left: 16px;
-   }
-   .card-text-payment{
+}
+
+.card-text-payment {
     Width: 127px;
     Height: 20px;
     margin-top: 24px;
     margin-left: 16px;
-   }
+}
 
-   .card-text-view{
+.card-text-view {
     Width: 160px;
     Height: 20px;
     margin-top: 24px;
     margin-left: 16px;
-   }
-.card-text-blue{
+}
+
+.card-text-blue {
     Width: 125px;
     Height: 20px;
     margin-top: 3px;
+    margin-left: 16.38px;
+}
+
+.ver-todos {
+    Width: 64px;
+    Height: 20px;
+    margin-top: 60px;
     margin-left: 16px;
 }
-.font-card {    
+
+.font-card {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 19.92px;
-    color:#000;
+    color: #000;
 }
-.font-card-blue{    
+
+.font-card-blue {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 15.23px;
-    color:#3483FA;
+    color: #3483FA;
 }
-.div-card{
+
+.font-ver-todos {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.2px;
+    color: #3483FA;
+}
+
+.posicion-susbribete {
+    width: 245px;
+    height: 38px;
+    margin-top: 24.5px;
+    margin-left: 24px;
+    margin-bottom: 24.5px;
+}
+
+.font-suscribete {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.ofertas {
+    width: 82px;
+    height: 32px;
+    margin-top: 50px;
+    margin-left: 164px;
+}
+
+.font-ofertas {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31.2px;
+    color: #666666;
+}
+
+.div-card {
     display: flex;
     flex-direction: column;
+}
+
+.div-ofertas {
+    display: flex;
+}
+
+.ofertas-img {
+    display: flex;
+    gap: 16px;
+}
+
+.card-img {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.tamano-img {
+    width: 224px;
+    height: 350px;
+    margin-left: 164px;
+    margin-top: 21.19px;
+    background-color: #fff;
+}
+
+.tamano-img1 {
+    width: 224px;
+    height: 350px;
+    margin-top: 21.19px;
+    margin-left: 16px;
+    background-color: #fff;
+}
+
+.font-ofertas {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #333333;
+}
+
+.font-descuento {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #00A650;
+}
+
+.border {
+    border-bottom: 1px solid #999999;
+}
+
+.border2 {
+    border-right: 2px solid #FFFFFF;
+    margin-left: 766.11px;
+    margin-top: 23.5px;
+    margin-bottom: 26.5px;
+
+}
+
+
+.div-envio1 {
+    margin-left: 16px;
+    margin-top: 5px;
+
+}
+
+.font-envio {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #00A650;
+    line-height: 16px;
+    font-weight: bold;
+
+}
+
+.posicion-tachado {
+    margin-top: 23.5px;
+    margin-left: 0px;
+}
+
+.posicion-normal {
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.font-normal-text {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: Medium;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.font-tachado {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: Medium;
+    text-decoration: line-through;
+    color: #FFFFFF;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.card-sub-degrade {
+    width: 1180px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 166px;
+    border-radius: 4px;
+    background-color: white;
+    border-bottom: 1px solid #999999;
+
+}
+
+.div-ofertas-texto {
+    margin-left: 16px;
+    margin-top: 19px;
+}
+
+.posicion-text1 {
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.posicion-disney {
+    margin-top: 30px;
+    margin-left: 25px;
+    display: flex;
+}
+
+.posicion-star {
+    margin-top: 30px;
+    margin-left: 169.33px;
+    display: flex;
+}
+
+.posicion-camion {
+    margin-top: 30px;
+    margin-left: 187.33px;
+    display: flex;
+}
+
+.font-span1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+    line-height: 18px;
+}
+
+.posicion-texto-disney {
+    margin-left: 16px;
+    margin-top: 30px;
+}
+
+.posicion-texto-camnion {
+    width: 240px;
+    height: 48px;
+    margin-top: 13px;
+    margin-left: 17px;
+    text-align: left;
+}
+
+.font-texto-disney {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    line-height: 16px;
+    vertical-align: center;
+}
+
+.font-texto-camion {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    line-height: 16px;
+    vertical-align: center;
+
+}
+
+.div-linea {
+    display: flex;
+    border-bottom: 0.5px solid #999999;
+    padding-bottom: 20px;
+
+}
+
+.posicion-button-azul {
+    margin-left: 1010px;
+    margin-top: 17px;
+
+}
+
+.mercado-puntos {
+    height: 32px;
+    width: 300px;
+    margin-left: 164px;
+    margin-top: 80px;
+    border-radius: nullpx;
+}
+
+.font-mercado-puntos {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #666666;
+    line-height: 31.2px;
+}
+
+.ver-todos-beneficios {
+    width: 161px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 90px;
+}
+
+.font-ver-todos-beneficios {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3483FA;
+    line-height: 19.2px;
+}
+
+.posicion-imagen1 {
+    margin-left: 164px;
+    margin-top: 21.19px;
+}
+
+.posicion-imagenes {
+    margin-left: 16px;
+    margin-top: 25px;
+}
+
+.posicion-imagenes1 {
+    margin-left: 16px;
+    margin-top: 21px;
+    display: flex;
+    gap: 16px;
+}
+
+.posicion-texto-imagen1 {
+    margin-top: -84px;
+    margin-left: 112px;
+    position: absolute;
+}
+
+.posicion-texto2-imagen1 {
+    margin-top: -60px;
+    margin-left: 112px;
+    position: absolute;
+}
+
+.posicion-texto2-imagen3 {
+    margin-top: -95px;
+    margin-left: 112px;
+    position: absolute;
+}
+.posicion-texto1-imagen3 {
+    margin-top: -70px;
+    margin-left: 112px;
+    position: absolute;
+}
+.posicion-texto3-imagen3 {
+    margin-top: -45px;
+    margin-left: 112px;
+    position: absolute;
+}
+
+
+
+.posicion-imagen1-1 {
+    margin-top: -100px;
+    margin-left: 16px;
+    position: absolute;
+}
+
+.font-texto3-imagen3 {
+
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.font-texto-imagen1 {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.font-texto2-imagen1 {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.button-azul {
+    height: 48px;
+    width: 140px;
+    font-weight: 600;
+    size: 15px;
+    background-color: #3483FA;
+    font-family: Rotobo, sans-serif;
+    border: 0;
+    line-height: 48px;
+    border-radius: 6px;
 }
 
 .items {
