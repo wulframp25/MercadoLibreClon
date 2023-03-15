@@ -374,6 +374,20 @@ nav {
     gap: 16px;
 }
 
+.supermercado-img {
+    display: flex;
+    gap: 16px;
+    margin-left: 16px;
+
+}
+
+.supermercado-img1 {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
 .card-img {
     display: flex;
     flex-direction: column;
@@ -628,32 +642,35 @@ nav {
     margin-left: 112px;
     position: absolute;
 }
+
 .posicion-texto1-imagen3 {
     margin-top: -70px;
     margin-left: 112px;
     position: absolute;
 }
+
 .posicion-texto3-imagen3 {
     margin-top: -45px;
     margin-left: 112px;
     position: absolute;
 }
 
-.posicion-descubre{
-height: 37px;
-width: 109.5px;
-margin-left: 164px;
-margin-top: 93px;
-border-radius: nullpx;
+.posicion-descubre {
+    height: 37px;
+    width: 109.5px;
+    margin-left: 164px;
+    margin-top: 93px;
+    border-radius: nullpx;
 }
 
-.font-descubre{
-font-family: Roboto, sans-serif;
-font-size: 26px;
-font-weight: 300;
-line-height: 31px;
-color: #666666;
+.font-descubre {
+    font-family: Roboto, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 31px;
+    color: #666666;
 }
+
 .posicion-imagen1-1 {
     margin-top: -100px;
     margin-left: 16px;
@@ -674,20 +691,21 @@ color: #666666;
     line-height: 24px;
 }
 
-.posicion-renueva{
+.posicion-renueva {
     margin-left: 32px;
-    margin-top: 57.7px ;
+    margin-top: 57.7px;
     width: 300px;
     height: 12px;
 }
 
-.posicion-nivel6{
+.posicion-nivel6 {
     margin-left: 32px;
-    margin-top: 57.7px ;
+    margin-top: 57.7px;
     width: 350px;
     height: 12px;
 }
-.font-renueva{
+
+.font-renueva {
     font-family: Rotobo, sans-serif;
     font-size: 12px;
     font-weight: 600;
@@ -695,39 +713,61 @@ color: #666666;
     color: #4B4B4B;
     letter-spacing: 4px;
 }
-.font-hogar{
+.font-descubre1{
+    font-family: Rotobo, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.06px;
+    color: #4B4B4B;
+    letter-spacing: 4px;
+}
+.posicion-descubre1{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.font-supermercado1{
+    font-family: Rotobo, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.8px;
+    color: #4B4B4B;
+    margin-left: 25px;
+}
+.font-hogar {
     font-family: Rotobo, sans-serif;
     font-size: 28px;
     font-weight: 600;
     line-height: 30.8px;
     color: #4B4B4B;
 }
-.posicion-imagen1-descubre{
+
+.posicion-imagen1-descubre {
     margin-left: 319px;
-    margin-top:-70px;
-}
-.div-descubre{
-height: 250px;
-width: 584px;
-margin-left: 164px;
-margin-top: 19.19px;
-border-radius: 4px;
-background-color: #ffffff;
-display: flex;
-flex-direction: column;
+    margin-top: -70px;
 }
 
-.las-mejores{
+.div-descubre {
+    height: 250px;
+    width: 584px;
+    margin-left: 164px;
+    margin-top: 19.19px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.las-mejores {
     margin-top: 54.81px;
     margin-left: 164px;
 }
 
-.ver-tiendas{
+.ver-tiendas {
     margin-top: 65px;
     margin-left: 25.45px;
 }
 
-.font-ver-tiendas{
+.font-ver-tiendas {
     font-family: Rotobo, sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -735,39 +775,100 @@ flex-direction: column;
     color: #3483FA;
 }
 
-.font-las-mejores{
+.font-las-mejores {
     font-family: Rotobo, sans-serif;
     font-size: 25px;
     font-weight: 300;
     line-height: 31.2px;
     color: #666666;
 }
-.div-tienda1{
+
+.div-tienda1 {
     width: 284px;
     height: 340px;
     margin-left: 164px;
     margin-top: 21.19px;
     background-color: #FFFFFF;
 }
-.posicion-lego{
-    margin-left: 102px;
-    margin-top: -45px;
-    position: absolute;    
+
+.div-xiaomi-oster {
+    width: 284px;
+    height: 340px;
+
+    margin-top: 21.19px;
+    background-color: #FFFFFF;
 }
 
-.posicion-text-lego{
+.posicion-colecciones {
+    margin-left: 164px;
+    margin-top: 108.81px;
+}
+
+.font-colecciones {
+    font-family: Roboto, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #666666;
+}
+
+.font-supermercado {
+    font-family: Roboto, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.posicion-img2-supermercado {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    
+
+}
+
+.posicion-lego {
+    margin-left: 102px;
+    margin-top: -45px;
+    position: absolute;
+}
+
+.posicion-text-lego {
     margin-top: 56px;
     margin-left: 116px;
 }
-.font-text-lego{
+
+.font-text-lego {
     font-family: Rotobo, sans-serif;
     font-size: 24px;
     font-weight: 300;
     line-height: 28.13px;
-    color: #333333;    
+    color: #333333;
 }
 
-.div-descubre1{
+.posicion-moto {
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.font-ver-tienda {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #999999;
+
+}
+
+.posicion-ver-tienda {
+    margin-left: 80px;
+    margin-top: 22px;
+}
+
+.div-descubre1 {
     height: 250px;
     width: 584px;
     margin-left: 16px;
@@ -776,8 +877,24 @@ flex-direction: column;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    
-    }
+}
+
+.posicion-imagen-supermercado {
+    margin-left: 156px;
+    margin-top: 24.19px;
+    display: flex;
+   }
+
+.div-supermercado {
+    background-color: #FFFFFF;
+    height: 99px;
+    width: 383px;
+}
+
+.tamano-img-supermercado {
+    width: 383px;
+    height: 281px;
+}
 
 .font-texto2-imagen1 {
     font-family: Roboto, sans-serif;
@@ -797,6 +914,7 @@ flex-direction: column;
     line-height: 48px;
     border-radius: 6px;
 }
+
 .button-azul-1 {
     height: 36px;
     width: 96px;
